@@ -7,6 +7,9 @@ public class Projectile : MonoBehaviour {
     private GameObject _deathAnimation;
 
     [SerializeField]
+    private GameObject _bigExplosion;
+
+    [SerializeField]
     private float _speed;
 
     [SerializeField]
@@ -20,6 +23,10 @@ public class Projectile : MonoBehaviour {
     {
         _particles.transform.SetParent(null, true);
         Destroy(gameObject);
-        Instantiate(_deathAnimation, transform.position, transform.rotation);
+
+        if(Random.Range(0, 1f) > 0.75f)
+            Instantiate(_bigExplosion, transform.position, transform.rotation);
+        else
+            Instantiate(_deathAnimation, transform.position, transform.rotation);
     }
 }
