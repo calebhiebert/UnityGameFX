@@ -169,6 +169,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _shellPrefab: {fileID: 102516, guid: e348b845b18232b48bef7d5ff0acde40, type: 2}
+  _fireworks: {fileID: 110766, guid: d54cb81efe0576b43a96bdeb876625ee, type: 2}
 --- !u!1 &1118699497
 GameObject:
   m_ObjectHideFlags: 0
@@ -213,7 +214,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingOrder: -1
   m_Sprite: {fileID: 21300000, guid: d39d6c015e9b96e42a8668b2d6ec8728, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_FlipX: 0
   m_FlipY: 0
 --- !u!4 &1118699499
@@ -302,7 +303,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 5
+  orthographic size: 8
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -386,7 +387,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingOrder: -1
   m_Sprite: {fileID: 21300000, guid: d39d6c015e9b96e42a8668b2d6ec8728, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_FlipX: 0
   m_FlipY: 0
 --- !u!4 &1651667361
