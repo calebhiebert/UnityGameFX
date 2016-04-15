@@ -39,10 +39,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: df964df6a98e3cd4691b8681e7baa203, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  t: 0
-  num: 30
-  dist: 0.5
-  prefab: {fileID: 168662, guid: 59ec28789868d4842bdc331144baf292, type: 2}
+  spawn: 0
+  _spawningMode: 1
+  _timeBetweenShots: 0.2
+  _numShots: 10
+  _distanceBetweenShots: 1
+  _shotPrefab: {fileID: 168662, guid: 59ec28789868d4842bdc331144baf292, type: 2}
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1
