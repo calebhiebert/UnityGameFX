@@ -168,8 +168,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3c6548b37182d824da05fe26009c84e4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  lowness: 0
   _shellPrefab: {fileID: 102516, guid: e348b845b18232b48bef7d5ff0acde40, type: 2}
-  _fireworks: {fileID: 110766, guid: d54cb81efe0576b43a96bdeb876625ee, type: 2}
+  _fireworks:
+  - {fileID: 110766, guid: d54cb81efe0576b43a96bdeb876625ee, type: 2}
+  - {fileID: 131648, guid: e59e07a883192a0409de0b71ff36e04e, type: 2}
+  - {fileID: 157582, guid: 7dafcd9135b52c641944945632c4f6c1, type: 2}
+  _lowFireworks:
+  - {fileID: 187272, guid: e04358232aaa0864b93dc360153586f0, type: 2}
+  - {fileID: 126504, guid: bcdb8265488bea149a503afd1714626d, type: 2}
+  - {fileID: 134600, guid: eb6ba3dc5c9c502498add558a965a31c, type: 2}
+  - {fileID: 177608, guid: 0da565c43ff83f74ca815d4ba54c5ae9, type: 2}
+  - {fileID: 187272, guid: f399b060279738a4cbb9334dacd54333, type: 2}
 --- !u!1 &1118699497
 GameObject:
   m_ObjectHideFlags: 0
